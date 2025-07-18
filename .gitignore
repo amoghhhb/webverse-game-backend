@@ -1,20 +1,7 @@
-﻿# Dependency directories
+﻿@"
 node_modules/
-
-# Environment files
 .env
-.env.local
-
-# Log files
-*.log
-logs/
-
-# IDE files
-.vscode/
-.idea/
-
-# macOS files (if developing cross-platform)
 .DS_Store
-
-# Database files (if any)
-*.db
+dist/
+*.log
+"@ | Out-File -FilePath .\.gitignore -Encoding utf8
